@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GregWu's Tomato Clock</title>
+    <link rel=stylesheet type="text/css" href="./TomatoClock.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="leftSide">
+
+            <div class="addList">
+                <input class="inputBox" type="text" placeholder="  ADD A NEW MISSION" />
+                <div class="addBtn">+</div>
+            </div>
+            <div class="first">
+                <input id=firstThing type="checkbox">
+                <label class="firstThing" for="firstThing"></label>
+                <span class="firstThingText">THE FIRST THING TO DO TODAY</span>
+            </div>
+            <div class="timeBlock">
+                <span class="time">25:00</span>
+            </div>
+            <div class="listbox">
+                <table>
+                    <tr>
+                        <td class="list_chkbox">
+                            <input id=secondThing type="checkbox">
+                            <label class="secondThing" for="secondThing"></label>
+                        </td>
+                        <td class="list_content">
+                            <span class="secondThingText">THE SECOND THING TO DO TODAY</span>
+                        </td>
+                        <td class="list_img">
+                            <input class="listPlayImg" type="image" src="./round_play_circle_outline_black_48dp.png" onclick="" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="list_chkbox">
+                            <input id=thirdThing type="checkbox">
+                            <label class="thirdThing" for="thirdThing"></label>
+                        </td>
+                        <td class="list_content">
+                            <span class="thirdThingText">THE THIRD THING TO DO TODAY</span>
+                        </td>
+                        <td class="list_img">
+                            <input class="listPlayImg" type="image" src="./round_play_circle_outline_black_48dp.png" onclick="" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="list_chkbox">
+                            <input id=fourThing type="checkbox">
+                            <label class="fourThing" for="fourThing"></label>
+                        </td>
+                        <td class="list_content">
+                            <span class="fourThingText">THE FOURTH THING TO DO TODAY</span>
+                        </td>
+                        <td class="list_img">
+                            <input class="listPlayImg" type="image" src="./round_play_circle_outline_black_48dp.png" onclick="" />
+                        </td>
+                    </tr>
+                </table>
+                <input class="btnMore" type="button" value="MORE" />
+            </div>
+        </div>
+
+        <div class="rightSide">
+            <input class="listImg" type="image" src="./baseline_list_white_24dp.png" onclick="" />
+            <input class="assessmentImg" type="image" src="./baseline_assessment_white_24dp.png" onclick="" />
+            <input class="musicImg" type="image" src="./baseline_library_music_white_24dp.png" onclick="" />
+            <span class="sideText">POMODORO</span>
+        </div>
+        <div class="bigCircle">
+            <div class="circle">
+                <input class="playImg" type="image" src="./baseline_play_circle_outline_white_24dp.png" onclick="" />
+                <input type="button" class="reset" />
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+</body>
+
+</html>
